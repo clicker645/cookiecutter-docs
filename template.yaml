@@ -16,6 +16,7 @@ spec:
     required:
       - component_id
       - component_namespace
+      - description
     properties:
       # ComponentId => namespace:name
       component_id:
