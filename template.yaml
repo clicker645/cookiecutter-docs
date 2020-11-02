@@ -1,0 +1,28 @@
+apiVersion: backstage.io/v1alpha1
+kind: Template
+metadata:
+  name: cookiecutter-docs
+  title: Exmaple cookiecutter-docs
+  description: Create a service with documentation
+  tags:
+    - example
+    - docs
+spec:
+  owner: belousov.d@light-it.net
+  templater: cookiecutter
+  type: service
+  path: '.'
+  schema:
+    required:
+      - component_id
+      - component_namespace
+    properties:
+      # ComponentId => namespace:name
+      component_id:
+        title: Name
+        type: string
+        description: Unique name of the component
+      component_namespace:
+        title: Namespace
+        type: string
+        description: 'Namespace of the component.'

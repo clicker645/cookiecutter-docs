@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Biblio
+metadata:
+  name: {{cookiecutter.component_id}}
+  namespace: {{cookiecutter.component_namespace}}
+  description: {{cookiecutter.description}}
+  annotations:
+    backstage.io/managed-by-location: github:http://github.com/{{cookiecutter.storePath}}/catalog-info.yaml
+    backstage.io/techdocs-ref: dir:./
+  tags:
+    - aws
+    - chalice
+    - python
+spec:
+  type: service
+  status: run
+  cmdb_id: {{cookiecutter.component_cmdb_id}}
+  owner: {{cookiecutter.owner}}
