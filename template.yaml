@@ -26,3 +26,6 @@ spec:
         title: Namespace
         type: string
         description: 'Namespace of the component.'
+      description:
+        title: Description for the component
+        type: string

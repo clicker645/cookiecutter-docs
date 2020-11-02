@@ -8,11 +8,8 @@ metadata:
     backstage.io/managed-by-location: github:http://github.com/{{cookiecutter.storePath}}/catalog-info.yaml
     backstage.io/techdocs-ref: dir:./
   tags:
-    - aws
-    - chalice
-    - python
+    - docs
 spec:
   type: service
   status: run
-  cmdb_id: {{cookiecutter.component_cmdb_id}}
   owner: {{cookiecutter.owner}}
