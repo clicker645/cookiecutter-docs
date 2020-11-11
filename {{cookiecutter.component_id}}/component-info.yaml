@@ -5,7 +5,7 @@ metadata:
   namespace: {{cookiecutter.component_namespace}}
   description: {{cookiecutter.description}}
   annotations:
-    backstage.io/managed-by-location: github:http://github.com/{{cookiecutter.storePath}}/blob/master/component-info.yaml
+    backstage.io/managed-by-location: github:https://github.com/{{cookiecutter.storePath}}/blob/master/component-info.yaml
     backstage.io/techdocs-ref: dir:./
   tags:
     - docs
